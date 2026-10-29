@@ -1,0 +1,40 @@
+============================================================
+ DESAFIO LINUX DAY 2026
+============================================================
+
+ Um sysadmin muito desconfiado escondeu uma mensagem secreta
+ dentro do arquivo cebola.txt. Para proteger o segredo, ele
+ embrulhou a mensagem em CINCO camadas, como uma cebola.
+
+ Sua missão: descascar todas as camadas usando o TERMINAL
+ e chegar à mensagem final.
+
+ REGRAS
+  1. Use o terminal. Sites conversores online não valem:
+     o objetivo é aprender os comandos!
+  2. Pesquisar na internet, usar `man` e `--help` pode e
+     deve! Ninguém decora todos os comandos.
+  3. Cada camada que você abrir traz uma dica para a próxima.
+  4. Dica de organização: crie uma pasta só sua para trabalhar
+     (mkdir) e guarde cada resultado em um arquivo novo
+     usando o redirecionamento ">".
+
+------------------------------------------------------------
+ CAMADA 1 de 5  -  Por onde começar?
+------------------------------------------------------------
+
+ Dê uma olhada em cebola.txt com `cat` ou `less`. Parece uma
+ sopa de letrinhas sem sentido, né? Repare bem nos
+ caracteres: só aparecem letras maiúsculas e minúsculas,
+ números, os símbolos + e /, e talvez um ou dois "=" no fim.
+
+ Essa assinatura é típica de uma codificação criada para
+ transformar dados em texto "seguro", e ela usa um alfabeto
+ de 64 símbolos. Pesquise o nome dela e descubra se o Linux
+ tem um comando para DEcodificar.
+
+ Quando conseguir, mande o resultado para um arquivo novo
+ (por exemplo, camada2.txt) e leia o que apareceu.
+
+ Boa sorte!
+============================================================
